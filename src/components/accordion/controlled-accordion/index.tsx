@@ -22,7 +22,7 @@ const ControlledAccordion = ({
     <div>
       <div
         onClick={onClick}
-        className={'border-l-4 border-primary-800 bg-primary-50'}
+        className={'cursor-pointer border-l-4 border-primary-800 bg-primary-50'}
       >
         <div className={cx(titleClassName, 'flex justify-between gap-x-2 p-4')}>
           {title} <ChevronDownIcon className={cx(expand && 'rotate-180')} />
